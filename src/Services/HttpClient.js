@@ -10,5 +10,5 @@ const request = {
     put : (url, body) => axios.put(url, body),
     delete: (url) => axios.delete(url)
 };
-
+ 
 export default request;
